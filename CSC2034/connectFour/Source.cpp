@@ -27,7 +27,7 @@ int verticalVictory();
 
 /*To do:
 * divide into .h and .cpp files. How does this impact global variables?
-* finish verticalVictory for colum 1
+* finish verticalVictory for enum interaction (?)
 * finish diagonalVictory
 * global variables vs return values vs pass by reference
 * can I clean up vertical and horizontal victory?*/
@@ -164,13 +164,13 @@ Returns dropSlot value to be used with modifyBoard
 Can I make this recursive so that the new inputs go through all the tests again instead of just that individual test?*/
 unsigned int prompt() {
 	cin >> dropValue;
-	char c = dropValue[0];
-	dropSlot = int(c) - 48;
-	while (dropSlot < 0 || dropSlot > 6) {
+	while (dropValue.length() != 1) {
 		cout << "Input must be a number between 0 and 6.\nPlease enter again: ";
 		return prompt();
 	}
-	while (dropValue.length() != 1) {
+	char c = dropValue[0];
+	dropSlot = int(c) - 48;
+	while (dropSlot < 0 || dropSlot > 6) {
 		cout << "Input must be a number between 0 and 6.\nPlease enter again: ";
 		return prompt();
 	}
