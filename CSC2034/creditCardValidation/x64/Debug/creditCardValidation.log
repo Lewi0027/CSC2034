@@ -1,0 +1,4 @@
+﻿  creditCardValidation.cpp
+C:\Users\lewi0\OneDrive - Colorado Community College System\Project\CSC2034\CSC2034\creditCardValidation\creditCardValidation.cpp(80,10): warning C4244: 'return': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+C:\Users\lewi0\OneDrive - Colorado Community College System\Project\CSC2034\CSC2034\creditCardValidation\creditCardValidation.cpp(86,9): warning C4244: 'return': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+  creditCardValidation.vcxproj -> C:\Users\lewi0\OneDrive - Colorado Community College System\Project\CSC2034\CSC2034\x64\Debug\creditCardValidation.exe
