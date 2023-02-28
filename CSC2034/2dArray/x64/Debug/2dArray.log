@@ -1,2 +1,2 @@
 ﻿  Source.cpp
-  2dArray.vcxproj -> C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\x64\Debug\2dArray.exe
+C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\2dArray\Source.cpp(6,10): fatal  error C1083: Cannot open include file: 'header.h': No such file or directory

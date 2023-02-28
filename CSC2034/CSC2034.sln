@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "connectFour", "connectFour\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2dArray", "2dArray\2dArray.vcxproj", "{50E6B6AD-7938-4A05-BB6C-4D90452DC5B6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myStack", "myStack\myStack.vcxproj", "{C1B355EF-C2E0-4984-A504-5C55D470A442}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{50E6B6AD-7938-4A05-BB6C-4D90452DC5B6}.Release|x64.Build.0 = Release|x64
 		{50E6B6AD-7938-4A05-BB6C-4D90452DC5B6}.Release|x86.ActiveCfg = Release|Win32
 		{50E6B6AD-7938-4A05-BB6C-4D90452DC5B6}.Release|x86.Build.0 = Release|Win32
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Debug|x64.ActiveCfg = Debug|x64
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Debug|x64.Build.0 = Debug|x64
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Debug|x86.Build.0 = Debug|Win32
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Release|x64.ActiveCfg = Release|x64
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Release|x64.Build.0 = Release|x64
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Release|x86.ActiveCfg = Release|Win32
+		{C1B355EF-C2E0-4984-A504-5C55D470A442}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
