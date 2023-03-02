@@ -9,63 +9,57 @@ using namespace std;
 
 int main() {
 
-	myStack* f;
-	char permStr[80];
-	char tempStr[80] = {0};
-	ifstream txtfile;
-	char* value;
-	int pushMe;
-	int temp1, temp2;
+	myStack* f;			//object that holds data and push,pop,print
+	char tempStr[80];	//char array that holds txt file info
+	ifstream txtfile;	//ifstream that imports txt file info
+	char* value;		//variable to hold the value to be pushed, popped or used as an operand
 
 	txtfile.open("rpnArithmetic.txt");
 	f = new myStack;
 
+	//while loop which keeps repeating until end of file is reached.
 	while (!txtfile.eof()) {
-		txtfile.getline(permStr, 80);
-		
-		for (int i = 0; i < strlen(permStr); i++) {
-			tempStr[i] = permStr[i];
-		}
+		//set tempStr equal to first line of txtfile up to 80 chars or delimeter of \n
+		txtfile.getline(tempStr, 80, '\n');
 
+		//output the header before calculating final sum
+		printf("expression %.*s evaluates to ", (int)sizeof(tempStr), tempStr);
+
+		//extract value from char array using strtok() in order to preserve integers longer than 1 digit
 		value = strtok(tempStr, " ");
 
+		//while loop keeps repeating until strtok value is NULL
+		//performs switch based upon value and then gets new strtok value
 		while (value != NULL) {
+			//switch statement either:
+			//pushes integer values
+			//pops two int values to use with operand value and pushes new value
 			switch (value[0]) {
 			case '+':
-				f->push(f->pop() + f->pop());
-				break;
+				f->push(f->pop() + f->pop()); break;
 			case '-':
-				f->push(-(f->pop()) + f->pop());
-				break;
+				f->push(-(f->pop()) + f->pop()); break;
 			case '*':
-				f->push(f->pop() * f->pop());
-				break;
+				f->push(f->pop() * f->pop()); break;
 			case '/':
-				temp1 = f->pop();
-				temp2 = f->pop();
-				f->push(temp2/temp1);
-				break;
+				f->push((1.0/f->pop())*f->pop()); break;
 			default:
-				pushMe = stoi(value);
-				f->push(pushMe);
+				f->push(stoi(value));
 			}
-			if (value != NULL)
-				value = strtok(NULL, " ");
-			else
-				break;
+			//Get new strtok value starting where last strtok left off
+			value = strtok(NULL, " ");
 		}
+		//print out the values currently in the stack
+		//should just be one value if txtfile formatted correctly
+		f->print();
 		
-		printf("expression %.*s evaluates to %d", (int)sizeof(permStr), permStr, f->pop());
-		cout << endl;
+		//delete object and recreate in order to remove any pushed values
+		delete f;
+		f = new myStack;
 	}
-	f->print(cout);
-	cout << endl;
+
 	txtfile.close();
 
 	return 0;
-
 }
-
-//output:
-//expression 2 3 + 7 * evaluates to 35 
 //strtok - CRT_SECURE_NO_WARNINGS (preprocessor definition)

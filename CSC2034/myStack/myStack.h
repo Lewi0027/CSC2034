@@ -16,11 +16,11 @@ public:
 	void push(int);
 	int pop();
 	bool isEmpty();
-	//void print();
-	void print(std::ostream&);
+	void print();
+	//void print(std::ostream&);
 	
 	//non-member functions
-	friend std::ostream& operator << (std::ostream&, myStack*); //myStack&
+	//friend std::ostream& operator << (std::ostream&, myStack*); 
 
 };
 #endif

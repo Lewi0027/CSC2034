@@ -1,2 +1,3 @@
 ﻿  main.cpp
+C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\myStack\main.cpp(43,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   myStack.vcxproj -> C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\x64\Debug\myStack.exe
