@@ -6,7 +6,7 @@
 using namespace std;
 
 class sets {
-private:
+protected:
 	vector<int> data;
 
 public:
@@ -15,17 +15,18 @@ public:
 	sets();
 	sets(int);
 	~sets();
-	sets(sets&);
+	sets(const sets&);
 
 	//Functions
 	void print();
+	void print(int);
 
 	//Overloaded operators
 	sets operator+= (int);
 	sets operator-= (int);
-	//sets operator* (sets& set);
-	//sets operator+ (sets& set);
-	//sets operator- (sets& set);
+	friend const sets operator* (const sets&, const sets&);
+	friend const sets operator+ (const sets&, const sets&);
+	friend const sets operator- (const sets&, const sets&);
 };
 
 #endif
