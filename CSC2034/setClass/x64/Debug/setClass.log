@@ -1,3 +1,5 @@
 ﻿  sets.cpp
-C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\setClass\sets.cpp(83,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\setClass\sets.cpp(108,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  testSets.cpp
+  Generating Code...
   setClass.vcxproj -> C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\x64\Debug\setClass.exe
