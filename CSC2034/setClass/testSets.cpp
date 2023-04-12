@@ -10,7 +10,7 @@ int main() {
 
 	//Test the += operator
 	//check for duplicate values
-	std::cout << "Print empty sector:\n";
+	std::cout << "Print empty vector:\n";
 	sets Test2;
 	Test2.print();
 	std::cout << "Initialize set 1 with values [1, 2, 3, 4]:\n";

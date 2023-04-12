@@ -17,6 +17,7 @@ sets::sets(const sets& set) : data(set.data) {}
 
 //Destructor
 sets::~sets() {
+	//std::cout << "destructor invoked" << std::endl;
 	//Intentionally left blank
 }
 
@@ -92,7 +93,7 @@ const sets operator* (const sets& set1, const sets& set2) {
 
 //+ operator - Returns a sets object that is the union of two sets
 const sets operator+ (const sets& set1, const sets& set2) {
-	//Precondition: Two sets object must exist
+	//Precondition: Two sets objects must exist
 	//Postcondition: Returns a sets object that is the union of set1 and set2
 	sets Result(set1);
 	for (unsigned int i = 0; i < set2.data.size(); i++)
@@ -102,13 +103,13 @@ const sets operator+ (const sets& set1, const sets& set2) {
 
 //- operator - Returns a sets object that is the difference between two sets
 const sets operator- (const sets& set1, const sets& set2) {
-	//Precondition: Two sets object must exist
+	//Precondition: Two sets objects must exist
 	//Postcondition: Returns a sets object that is the difference of set1 - set2
 	sets Result(set1);
-	for (int i = Result.data.size() - 1; i >= 0; i--) {						//Why can't this be an unsigned int? This was causing errors that way and it was not turning into a negative value
+	for (unsigned int i = Result.data.size(); i >= 1; i--) {						//Why can't this be an unsigned int? This was causing errors that way and it was not turning into a negative value
 		for (unsigned int j = 0; j < set2.data.size(); j++) {
-			if (Result.data[i] == set2.data[j]) {
-				Result -= Result.data[i];
+			if (Result.data[i-1] == set2.data[j]) {
+				Result -= Result.data[i-1];
 			}
 		}
 	}
