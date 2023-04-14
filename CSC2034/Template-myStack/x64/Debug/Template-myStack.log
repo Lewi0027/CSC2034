@@ -1,0 +1,81 @@
+﻿  Source.cpp
+C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\Template-myStack\Source.cpp(45,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+Source.obj : error LNK2019: unresolved external symbol __imp__invalid_parameter referenced in function "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__CrtDbgReport referenced in function "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__errno referenced in function "int __cdecl std::stoi(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_strtol referenced in function "int __cdecl std::stoi(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp___acrt_iob_func referenced in function printf
+Source.obj : error LNK2019: unresolved external symbol __imp__get_stream_buffer_pointers referenced in function "protected: void __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Init(struct _iobuf *,enum std::basic_filebuf<char,struct std::char_traits<char> >::_Initfl)" (?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@12@@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_fclose referenced in function "public: class std::basic_filebuf<char,struct std::char_traits<char> > * __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::close(void)" (?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_fflush referenced in function "protected: virtual int __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::sync(void)" (?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_fgetc referenced in function "bool __cdecl std::_Fgetc<char>(char &,struct _iobuf *)" (??$_Fgetc@D@std@@YA_NAEADPEAU_iobuf@@@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_fgetpos referenced in function "protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_fputc referenced in function "bool __cdecl std::_Fputc<char>(char,struct _iobuf *)" (??$_Fputc@D@std@@YA_NDPEAU_iobuf@@@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_fread referenced in function "protected: virtual __int64 __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_fsetpos referenced in function "protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::seekpos(class std::fpos<struct _Mbstatet>,int)" (?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__fseeki64 referenced in function "protected: virtual class std::fpos<struct _Mbstatet> __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_fwrite referenced in function "protected: bool __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)" (?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_setvbuf referenced in function "protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::setbuf(char *,__int64)" (?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_ungetc referenced in function "bool __cdecl std::_Ungetc<char>(char const &,struct _iobuf *)" (??$_Ungetc@D@std@@YA_NAEBDPEAU_iobuf@@@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__lock_file referenced in function "public: virtual void __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp__unlock_file referenced in function "public: virtual void __cdecl std::basic_filebuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp___stdio_common_vfprintf referenced in function _vfprintf_l
+Source.obj : error LNK2019: unresolved external symbol memcpy referenced in function "public: static char * __cdecl std::_Char_traits<char,int>::copy(char * const,char const * const,unsigned __int64)" (?copy@?$_Char_traits@DH@std@@SAPEADQEADQEBD_K@Z)
+Source.obj : error LNK2019: unresolved external symbol memmove referenced in function "int * __cdecl std::_Copy_memmove<int *,int *>(int *,int *,int *)" (??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z)
+Source.obj : error LNK2019: unresolved external symbol strlen referenced in function "public: static unsigned __int64 __cdecl std::_Narrow_char_traits<char,int>::length(char const * const)" (?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_strtok referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __std_exception_copy referenced in function "public: __cdecl std::exception::exception(class std::exception const &)" (??0exception@std@@QEAA@AEBV01@@Z)
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol __std_exception_copy
+Source.obj : error LNK2019: unresolved external symbol __std_exception_destroy referenced in function "public: virtual __cdecl std::exception::~exception(void)" (??1exception@std@@UEAA@XZ)
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol __std_exception_destroy
+Source.obj : error LNK2019: unresolved external symbol _CxxThrowException referenced in function __catch$??$_Emplace_reallocate@AEBH@?$vector@HV?$allocator@H@std@@@std@@AEAAPEAHQEAHAEBH@Z$0
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol _CxxThrowException
+Source.obj : error LNK2001: unresolved external symbol __CxxFrameHandler4
+msvcprtd.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol __CxxFrameHandler4
+MSVCRTD.lib(gshandlereh4.obj) : error LNK2001: unresolved external symbol __CxxFrameHandler4
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp__free_dbg referenced in function "public: static void __cdecl std::_Fac_node::operator delete(void *)" (??3_Fac_node@std@@SAXPEAX@Z)
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp__malloc_dbg referenced in function "public: static void * __cdecl std::_Fac_node::operator new(unsigned __int64)" (??2_Fac_node@std@@SAPEAX_K@Z)
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: unresolved external symbol _callnewh referenced in function "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: unresolved external symbol malloc referenced in function "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+MSVCRTD.lib(init.obj) : error LNK2019: unresolved external symbol _CrtDbgReport referenced in function _CRT_RTC_INIT
+MSVCRTD.lib(init.obj) : error LNK2019: unresolved external symbol _CrtDbgReportW referenced in function _CRT_RTC_INITW
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_initialize referenced in function __scrt_initialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_uninitialize referenced in function __scrt_initialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_uninitialize_critical referenced in function __scrt_dllmain_uninitialize_critical
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_thread_attach referenced in function __scrt_dllmain_crt_thread_attach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_thread_detach referenced in function __scrt_dllmain_crt_thread_attach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _seh_filter_dll referenced in function __scrt_dllmain_exception_filter
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _is_c_termination_complete referenced in function __scrt_dllmain_uninitialize_c
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _configure_narrow_argv referenced in function "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ)
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _initialize_narrow_environment referenced in function "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ)
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _initialize_onexit_table referenced in function __scrt_initialize_onexit_tables
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _register_onexit_function referenced in function _onexit
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _execute_onexit_table referenced in function __scrt_dllmain_uninitialize_c
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _crt_atexit referenced in function _onexit
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _crt_at_quick_exit referenced in function at_quick_exit
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_initialize referenced in function __scrt_initialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_uninitialize referenced in function __scrt_uninitialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_uninitialize_critical referenced in function __scrt_dllmain_uninitialize_critical
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_thread_attach referenced in function __scrt_dllmain_crt_thread_attach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_thread_detach referenced in function __scrt_dllmain_crt_thread_detach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _cexit referenced in function __scrt_dllmain_uninitialize_c
+MSVCRTD.lib(utility.obj) : error LNK2001: unresolved external symbol __C_specific_handler
+MSVCRTD.lib(delete_scalar.obj) : error LNK2019: unresolved external symbol _free_dbg referenced in function "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol strcpy_s referenced in function "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol strcat_s referenced in function "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol __stdio_common_vsprintf_s referenced in function _vsprintf_s_l
+MSVCRTD.lib(error.obj) : error LNK2001: unresolved external symbol __C_specific_handler_noexcept
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: unresolved external symbol terminate referenced in function __scrt_unhandled_exception_filter
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: unresolved external symbol __current_exception referenced in function __scrt_unhandled_exception_filter
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: unresolved external symbol __current_exception_context referenced in function __scrt_unhandled_exception_filter
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol _wmakepath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol _wsplitpath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol wcscpy_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleFileNameW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleHandleW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_LoadLibraryExW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+C:\Users\lewi0\Desktop\Code\CSC2034\CSC2034\x64\Debug\Template-myStack.exe : fatal error LNK1120: 69 unresolved externals
